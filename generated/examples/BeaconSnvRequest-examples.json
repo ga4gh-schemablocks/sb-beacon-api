@@ -1,0 +1,15 @@
+[
+   {
+      "alternateBases" : "A",
+      "assemblyId" : "GRCh38",
+      "datasetIds" : [
+         "dipg",
+         "progenetix"
+      ],
+      "includeDatasetResponses" : "HIT",
+      "referenceBases" : "G",
+      "referenceName" : "17",
+      "start" : "7577121"
+   }
+]
+
