@@ -145,10 +145,10 @@ Maximum end coordinate. See startMin.
 ##### `endMax` Value Examples  
 
 ```
-"344452"
+344452
 ```
 ```
-"244238579"
+244238579
 ```
 
 #### endMin
@@ -160,10 +160,10 @@ Minimum end coordinate. See startMin.
 ##### `endMin` Value Examples  
 
 ```
-"34"
+34
 ```
 ```
-"244238578"
+244238578
 ```
 
 #### includeDatasetResponses
@@ -200,10 +200,10 @@ Maximum start coordinate. See startMin.
 ##### `startMax` Value Examples  
 
 ```
-"6298006"
+6298006
 ```
 ```
-"243998770"
+243998770
 ```
 
 #### startMin
@@ -223,10 +223,10 @@ Minimum start coordinate
 ##### `startMin` Value Examples  
 
 ```
-"0"
+0
 ```
 ```
-"6298005"
+6298005
 ```
 
 #### variantType
