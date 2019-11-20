@@ -1,0 +1,14 @@
+[
+   {
+      "alternateBases" : "N",
+      "assemblyId" : "GRCh38",
+      "datasetIds" : [
+         "dipg"
+      ],
+      "end" : "7579005",
+      "referenceBases" : "N",
+      "referenceName" : "17",
+      "start" : "7572826"
+   }
+]
+
