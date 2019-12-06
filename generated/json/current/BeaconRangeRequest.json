@@ -1,5 +1,5 @@
 {
-   "$id" : "https://schemablocks.org/schemas/sb-beacon-api/BeaconRangeRequest/v1.1.0",
+   "$id" : "https://schemablocks.org/schemas/beacon/BeaconRangeRequest/v1.1.0",
    "$schema" : "http://json-schema.org/draft-07/schema#",
    "description" : "A `BeaconAlleleRequest` flavour for matching variants in a genomic range.\n",
    "examples" : [
@@ -77,7 +77,7 @@
       "mateName" : {
          "allof" : [
             {
-               "$ref" : "https://schemablocks.org/schemas/sb-beacon-api/v1.1.0/Chromosome.json"
+               "$ref" : "https://schemablocks.org/schemas/beacon/v1.1.0/Chromosome.json"
             },
             {
                "description" : "Second chromosome in fusion events, as string\n",
@@ -96,7 +96,7 @@
       "referenceName" : {
          "allof" : [
             {
-               "$ref" : "https://schemablocks.org/schemas/sb-beacon-api/v1.1.0/Chromosome.json"
+               "$ref" : "https://schemablocks.org/schemas/beacon/v1.1.0/Chromosome.json"
             },
             {
                "description" : "Chromosome as string\n",

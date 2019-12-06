@@ -1,5 +1,5 @@
 "$schema": http://json-schema.org/draft-07/schema#
-"$id": https://schemablocks.org/schemas/sb-beacon-api/BeaconSnvRequest/v1.1.0
+"$id": https://schemablocks.org/schemas/beacon/BeaconSnvRequest/v1.1.0
 title: BeaconSnvRequest
 meta:
   contributors:
@@ -26,7 +26,7 @@ required:
 properties:
   referenceName:
     allof:
-      - "$ref": https://schemablocks.org/schemas/sb-beacon-api/v1.1.0/Chromosome.json
+      - "$ref": https://schemablocks.org/schemas/beacon/v1.1.0/Chromosome.json
       - description: |
           Chromosome as string
         examples:

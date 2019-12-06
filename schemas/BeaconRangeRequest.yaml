@@ -1,5 +1,5 @@
 "$schema": http://json-schema.org/draft-07/schema#
-"$id": https://schemablocks.org/schemas/sb-beacon-api/BeaconRangeRequest/v1.1.0
+"$id": https://schemablocks.org/schemas/beacon/BeaconRangeRequest/v1.1.0
 title: BeaconRangeRequest
 meta:
   contributors:
@@ -29,7 +29,7 @@ required:
 properties:
   referenceName:
     allof:
-      - "$ref": https://schemablocks.org/schemas/sb-beacon-api/v1.1.0/Chromosome.json
+      - "$ref": https://schemablocks.org/schemas/beacon/v1.1.0/Chromosome.json
       - description: |
           Chromosome as string
         examples:
@@ -101,7 +101,7 @@ properties:
       - 'DEL'
   mateName:
     allof:
-      - "$ref": https://schemablocks.org/schemas/sb-beacon-api/v1.1.0/Chromosome.json
+      - "$ref": https://schemablocks.org/schemas/beacon/v1.1.0/Chromosome.json
       - description: |
           Second chromosome in fusion events, as string
         examples:
