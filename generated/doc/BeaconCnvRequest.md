@@ -1,57 +1,34 @@
 
 <div id="schema-header-title">
-  <h2>BeaconCnvRequest <span id="schema-header-title-project">beacon <a href="https://github.com/ga4gh-schemablocks/sb-beacon-api" target="_BLANK">&nearr;</a></span> </h2>
+  <h2><span id="schema-header-title-project">beacon</span> BeaconCnvRequest <a href="https://github.com/ga4gh-beacon/sb-beacon-api" target="_BLANK">[ &nearr; ]</a></h2>
 </div>
 
 <table id="schema-header-table">
-  <tr>
-    <th>{S}[B] Status <a href="https://schemablocks.org/about/sb-status-levels.html">[i]</a></th>
-    <td><div id="schema-header-status">proposed</div></td>
-  </tr>
-
-  <tr>
-    <th>Provenance</th>
-    <td>
-      <ul>
+<tr>
+<th>{S}[B] Status <a href="https://schemablocks.org/about/sb-status-levels.html">[i]</a></th>
+<td><div id="schema-header-status">proposed</div></td>
+</tr>
+<tr><th>Provenance</th><td><ul>
 <li><a href="https://github.com/ga4gh-beacon/specification/">Beacon API</a></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <th>Used by</th>
-    <td>
-      <ul>
+</ul></td></tr>
+<tr><th>Used by</th><td><ul>
 <li><a href="https://github.com/ga4gh-beacon/specification/blob/master/beacon.yaml">Beacon</a></li>
 <li><a href="https://github.com/progenetix/schemas/tree/master/main/yaml">Progenetix database schema (Beacon+ backend)</a></li>
-      </ul>
-    </td>
-  </tr>
+</ul></td></tr>
+
 
 <!--more-->
-
-  <tr>
-    <th>Contributors</th>
-    <td>
-      <ul>
+<tr><th>Contributors</th><td><ul>
 <li><a href="https://orcid.org/0000-0002-9903-4248">Michael Baudis</a></li>
 <li>Beacon developers...</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <th>Source (v1.1.0)</th>
-    <td>
-      <ul>
-        <li><a href="current/BeaconCnvRequest.json" target="_BLANK">raw source [JSON]</a></li>
-        <li><a href="https://github.com/ga4gh-schemablocks/sb-beacon-api/blob/master/schemas/BeaconCnvRequest.yaml" target="_BLANK">Github</a></li>
-      </ul>
-    </td>
-  </tr>
+</ul></td></tr>
+<tr><th>Source (v1.1.0)</th><td><ul>
+<li><a href="current/BeaconCnvRequest.json" target="_BLANK">raw source [JSON]</a></li>
+<li><a href="https://github.com/ga4gh-beacon/sb-beacon-api/blob/master/schemas/BeaconCnvRequest.yaml" target="_BLANK">Github</a></li>
+</ul></td></tr>
 </table>
 
-<div id="schema-attributes-title">
-  <h3>Attributes</h3>
-</div>
+<div id="schema-attributes-title"><h3>Attributes</h3></div>
 
   
 __Type:__ object  
@@ -63,47 +40,16 @@ TODO: The documented queries will fail current tests due to the lack of the
 ### Properties
 
 <table id="schema-properties-table">
-  <tr>
-    <th>Property</th>
-    <th>Type</th>
-  </tr>
-  <tr>
-    <th>assemblyId</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>datasetIds</th>
-    <td>array of "string"</td>
-  </tr>
-  <tr>
-    <th>endMax</th>
-    <td>integer (int64)</td>
-  </tr>
-  <tr>
-    <th>endMin</th>
-    <td>integer (int64)</td>
-  </tr>
-  <tr>
-    <th>includeDatasetResponses</th>
-    <td>string</td>
-  </tr>
-  <tr>
-    <th>referenceName</th>
-    <td>https://schemablocks.org/schemas/beacon/v1.1.0/Chromosome.json [<a href="https://schemablocks.org/schemas/beacon/v1.1.0/Chromosome.json" target="_BLANK">SRC</a>] [<a href="https://schemablocks.org/schemas/beacon/Chromosome.html" target="_BLANK">HTML</a>]</td>
-  </tr>
-  <tr>
-    <th>startMax</th>
-    <td>integer (int64)</td>
-  </tr>
-  <tr>
-    <th>startMin</th>
-    <td>integer (int64)</td>
-  </tr>
-  <tr>
-    <th>variantType</th>
-    <td>string</td>
-  </tr>
-
+<tr><th>Property</th><th>Type</th></tr>
+<tr><th>assemblyId</th><td>string</td></tr>
+<tr><th>datasetIds</th><td>array of "string"</td></tr>
+<tr><th>endMax</th><td>integer (int64)</td></tr>
+<tr><th>endMin</th><td>integer (int64)</td></tr>
+<tr><th>includeDatasetResponses</th><td>string</td></tr>
+<tr><th>referenceName</th><td>https://schemablocks.org/schemas/beacon/v1.1.0/Chromosome.json [<a href="https://schemablocks.org/schemas/beacon/v1.1.0/Chromosome.json">LINK</a>]</td></tr>
+<tr><th>startMax</th><td>integer (int64)</td></tr>
+<tr><th>startMin</th><td>integer (int64)</td></tr>
+<tr><th>variantType</th><td>string</td></tr>
 </table>
 
 
@@ -175,7 +121,7 @@ Indicator of whether responses for individual datasets (datasetAlleleResponses) 
 
 #### referenceName
 
-* type: https://schemablocks.org/schemas/beacon/v1.1.0/Chromosome.json [<a href="https://schemablocks.org/schemas/beacon/v1.1.0/Chromosome.json" target="_BLANK">SRC</a>] [<a href="https://schemablocks.org/schemas/beacon/Chromosome.html" target="_BLANK">HTML</a>]
+* type: https://schemablocks.org/schemas/beacon/v1.1.0/Chromosome.json [<a href="https://schemablocks.org/schemas/beacon/v1.1.0/Chromosome.json">LINK</a>]
 
 Chromosome as string
 
