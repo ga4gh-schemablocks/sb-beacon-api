@@ -13,7 +13,7 @@ meta:
     - label: Michael Baudis
       id: orcid:0000-0002-9903-4248
   provenance:
-    - label: Beacon v2
+    - label: Beacon v2 provisional / developer version
       id: https://github.com/ga4gh-beacon/specification-v2
   used_by:
     - label: Progenetix database schema (Beacon+ backend)
