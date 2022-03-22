@@ -31,6 +31,7 @@ defaults:
 
 schema_repos:
   - schema_repo: sb-beacon-api
+    branch: main
     tags:
       - Beacon-v2
       - beacon
@@ -54,7 +55,7 @@ schema_repos:
     target_doc_dirname: sb-beacon-api
     include_matches: [ ]
     exclude_matches: [ "endpoints" ]
-    meta_header_filename: ""
+    meta_header_filename: "" # optional, in the config directory
 
 out_dirnames:
   json: json
