@@ -13,15 +13,17 @@ status_levels:
   - core
 
 defaults:
-  version: 2.0.0-draft.4
+  version: 2.0.0
   project: sb-beacon-api
   meta_header:
     contributors:
       - label: ELIXIR Beacon project team
         id: https://beacon-project.io/categories/people.html
     provenance:
-      - label: Beacon v2 provisional version
-        id: https://github.com/ga4gh-beacon/
+      - label: Beacon v2
+        id: https://github.com/ga4gh-beacon/beacon-v2
+      - label: Beacon v2 documentation
+        id: http://docs.genomebeacons.org
     used_by:
       - label: Beacon v2 frontline implementers
         id: https://ga4gh-approval-service-registry.ega-archive.org
@@ -43,14 +45,14 @@ schema_repos:
       - [ "schemas", "framework", "configuration" ]
       - [ "schemas", "framework", "requests" ]
       - [ "schemas", "framework", "responses" ]
-      - [ "schemas", "models", "analyses" ]
-      - [ "schemas", "models", "biosamples" ]
-      - [ "schemas", "models", "cohorts" ]
-      - [ "schemas", "models", "common" ]
-      - [ "schemas", "models", "datasets" ]
-      - [ "schemas", "models", "genomicVariations" ]
-      - [ "schemas", "models", "individuals" ]
-      - [ "schemas", "models", "runs" ]
+      - [ "schemas", "beacon-v2-default-model", "analyses" ]
+      - [ "schemas", "beacon-v2-default-model", "biosamples" ]
+      - [ "schemas", "beacon-v2-default-model", "cohorts" ]
+      - [ "schemas", "beacon-v2-default-model", "common" ]
+      - [ "schemas", "beacon-v2-default-model", "datasets" ]
+      - [ "schemas", "beacon-v2-default-model", "genomicVariations" ]
+      - [ "schemas", "beacon-v2-default-model", "individuals" ]
+      - [ "schemas", "beacon-v2-default-model", "runs" ]
     out_dir_name: generated
     target_doc_dirname: sb-beacon-api
     include_matches: [ ]
